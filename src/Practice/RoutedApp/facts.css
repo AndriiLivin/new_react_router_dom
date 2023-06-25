@@ -1,0 +1,33 @@
+h1 {
+  color: white;
+}
+
+.fact-list {
+  display: flex;
+  /* text-align: left; */
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.fact-item {
+  display: flex;
+
+  border-bottom: 1px solid darkgreen;
+  /* padding-top: 1rem; */
+  justify-content: space-between;
+  /* align-items: end; */
+  /* border: 1px solid blueviolet; */
+}
+
+.fact-item > h3 {
+  margin: 0px;
+  padding: 0px;
+}
+
+.read-more {
+  color: yellow;
+  background-color: transparent;
+  border: 2px solid yellowgreen;
+  cursor: pointer;
+  /* text-decoration: none; */
+}
